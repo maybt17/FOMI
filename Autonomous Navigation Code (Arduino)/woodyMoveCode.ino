@@ -1,6 +1,9 @@
 /*
         Arduino Brushless Motor Control
      by Dejan, https://howtomechatronics.com
+     by Michael Klements, The DIY Life, YouTube
+        How to make an obstacle avoiding robot with three ultrasonic sensors
+     by srituhobby, https://srituhobby.com
 */
 
 #include <Servo.h>
