@@ -14,8 +14,8 @@ For a further overview of the process (prior) to updating GitHub, look below.
 
 ## Links to Check Out
 
-If you're interested in the entire process, checkout my portfolio site under FOMI: https://sites.google.com/view/may-bt-engineering/fomi
-For my day-to-day log: https://docs.google.com/document/d/1-iK1j3eh0HTzLEBIb3M277xlDywkzST71Rt_AVlgA80/edit?usp=sharing
+- If you're interested in the entire process, checkout my portfolio site under FOMI: https://sites.google.com/view/may-bt-engineering/fomi
+- For my day-to-day log: https://docs.google.com/document/d/1-iK1j3eh0HTzLEBIb3M277xlDywkzST71Rt_AVlgA80/edit?usp=sharing
 
 ## What Was Done Before I Joined Github
 For more in depth, I highly recommend checking out the links above.
