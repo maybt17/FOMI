@@ -6,8 +6,9 @@ All code that isn't mine is credited either in the files themselves or on this d
 - robotAutonomousDrive.ino is working but only incorporates 2 ultrasonic sensors vs. the 4 that the newer one uses.
   
 # Tubby Code (Version 2)
--
--
+- controller_x.py <-- controlling with the XBox controller
+- realTestKey.py <-- Trying to drive with keyboard, foundout about the controller and switched to getting that work (this code doesnt work).
+- testKey.py <-- Trying to drive with keyboard, foundout about the controller and switched to getting that work (this code doesnt work).
 Unlike the other versions, Tubby used Python to work! I was coding directly in the Nvidia Jetson Nano so figured Python would work! The reason Woody runs off of Arduino (which uses a variant of C++) is because I am currently using an Arduino to control movement and the Nano to manage the mapping. This will be changed in the future.
 
 # Sharon Code (Version 1)
