@@ -78,24 +78,24 @@ void Obstacle() {
   distanceThree = ultrasonicThree();
   distanceFour = ultrasonicFour();
   
-  if (distanceOne <= 23 or distanceTwo <= 23 or distanceThree <= 18 or distanceFour <= 18) {
+  if (distanceOne <= 22 or distanceTwo <= 22 or distanceThree <= 14 or distanceFour <= 14) {
     stp();
     delay(800);
 
     if (distanceThree <= 18){
       left();
-      delay(400);
+      delay(300);
     }
     if (distanceFour <= 18){
       right();
-      delay(400);
+      delay(300);
     }
 
     if (distanceOne <= 23 or distanceTwo <= 23) {
       rev();
       delay(200);
       right();
-      delay(400);
+      delay(200);
     }
 
     distanceOne = ultrasonicOne();
@@ -110,9 +110,9 @@ void Obstacle() {
 //ultrasonic sensor distance reading function
 int ultrasonicOne() {
   digitalWrite(trigOne, LOW);
-  delayMicroseconds(4);
+  delayMicroseconds(6);
   digitalWrite(trigOne, HIGH);
-  delayMicroseconds(10);
+  delayMicroseconds(12);
   digitalWrite(trigOne, LOW);
   long tOne = pulseIn(echoOne, HIGH);
   long cmOne = tOne / 29 / 2; //time convert distance
@@ -121,9 +121,9 @@ int ultrasonicOne() {
 
 int ultrasonicTwo() {
   digitalWrite(trigTwo, LOW);
-  delayMicroseconds(4);
+  delayMicroseconds(6);
   digitalWrite(trigTwo, HIGH);
-  delayMicroseconds(10);
+  delayMicroseconds(12);
   digitalWrite(trigTwo, LOW);
   long tTwo = pulseIn(echoTwo, HIGH);
   long cmTwo = tTwo / 29 / 2; //time convert distance
@@ -132,9 +132,9 @@ int ultrasonicTwo() {
 
 int ultrasonicThree() {
   digitalWrite(trigThree, LOW);
-  delayMicroseconds(4);
+  delayMicroseconds(6);
   digitalWrite(trigThree, HIGH);
-  delayMicroseconds(10);
+  delayMicroseconds(12);
   digitalWrite(trigThree, LOW);
   long tThree = pulseIn(echoThree, HIGH);
   long cmThree = tThree / 29 / 2; //time convert distance
@@ -143,9 +143,9 @@ int ultrasonicThree() {
 
 int ultrasonicFour() {
   digitalWrite(trigFour, LOW);
-  delayMicroseconds(4);
+  delayMicroseconds(6);
   digitalWrite(trigFour, HIGH);
-  delayMicroseconds(10);
+  delayMicroseconds(12);
   digitalWrite(trigFour, LOW);
   long tFour = pulseIn(echoFour, HIGH);
   long cmFour = tFour / 29 / 2; //time convert distance
